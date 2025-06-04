@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        git 'DefaultGit'
+        git 'git version 2.43.0'
         maven 'Maven' // Adjust to match your Jenkins tool config
         jdk 'openjdk-21'        // Adjust to your JDK name
     }
